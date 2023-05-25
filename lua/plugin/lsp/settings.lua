@@ -27,3 +27,6 @@ require "plugin.lsp.lang.docker"
 
 -- Load settings for docker-compose
 require "plugin.lsp.lang.docker-compose"
+
+-- Load settings for markdown
+require "plugin.lsp.lang.marksman"
