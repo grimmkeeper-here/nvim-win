@@ -39,6 +39,9 @@ Plug 'preservim/tagbar'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-repeat'
 
+" Multicursor
+Plug 'mg979/vim-visual-multi', {'branch': 'master'}
+
 call plug#end()
 
 " Setting Plugin
