@@ -57,6 +57,5 @@ lua require('plugin.lsp.settings')
 " Comment code
 lua require('plugin.comment-code.settings')
 
-
 " Load settings final to override all unused settings from plugin
 exe 'source' '~/AppData/Local/nvim/settings.vim'
