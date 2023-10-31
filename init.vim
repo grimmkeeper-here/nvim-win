@@ -42,6 +42,9 @@ Plug 'tpope/vim-repeat'
 " Multicursor
 Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 
+" TODO comment
+Plug 'folke/todo-comments.nvim'
+
 call plug#end()
 
 " Setting Plugin
