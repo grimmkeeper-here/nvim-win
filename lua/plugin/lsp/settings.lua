@@ -30,3 +30,6 @@ require "plugin.lsp.lang.docker-compose"
 
 -- Load settings for markdown
 require "plugin.lsp.lang.marksman"
+
+-- Load settings for protobuf
+require "plugin.lsp.lang.proto"
