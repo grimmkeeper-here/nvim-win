@@ -44,6 +44,10 @@ Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 
 " TODO comment
 Plug 'folke/todo-comments.nvim'
+Plug 'nvim-lua/plenary.nvim'
+
+" Trouble
+Plug 'folke/trouble.nvim'
 
 call plug#end()
 
