@@ -33,3 +33,6 @@ require "plugin.lsp.lang.marksman"
 
 -- Load settings for protobuf
 require "plugin.lsp.lang.proto"
+
+-- Load settings for js
+require "plugin.lsp.lang.js"
