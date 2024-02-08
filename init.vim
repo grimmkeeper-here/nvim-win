@@ -2,6 +2,7 @@
 call plug#begin('~/AppData/Local/nvim/plugged')
 " Treesitter
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+Plug 'HiPhish/rainbow-delimiters.nvim'
 
 " Tree
 Plug 'nvim-tree/nvim-web-devicons' " optional, for file icons
@@ -63,6 +64,9 @@ lua require('plugin.lsp.settings')
 
 " Comment code
 lua require('plugin.comment-code.settings')
+
+" Rainbow delimiters
+lua require('plugin.rainbow-delimiters.settings')
 
 " Load settings final to override all unused settings from plugin
 exe 'source' '~/AppData/Local/nvim/settings.vim'
