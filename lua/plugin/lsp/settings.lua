@@ -36,3 +36,6 @@ require "plugin.lsp.lang.proto"
 
 -- Load settings for js
 require "plugin.lsp.lang.js"
+
+-- Load settings for asm
+require "plugin.lsp.lang.asm"
