@@ -39,3 +39,6 @@ require "plugin.lsp.lang.js"
 
 -- Load settings for asm
 require "plugin.lsp.lang.asm"
+
+-- Load settings for sql
+require "plugin.lsp.lang.sql"
