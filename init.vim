@@ -50,6 +50,9 @@ Plug 'nvim-lua/plenary.nvim'
 " Trouble
 Plug 'folke/trouble.nvim'
 
+" Git blame
+Plug 'f-person/git-blame.nvim'
+
 call plug#end()
 
 " Setting Plugin
