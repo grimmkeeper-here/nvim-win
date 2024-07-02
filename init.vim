@@ -53,6 +53,9 @@ Plug 'folke/trouble.nvim'
 " Git blame
 Plug 'f-person/git-blame.nvim'
 
+" Copilot
+Plug 'github/copilot.vim'
+
 call plug#end()
 
 " Setting Plugin
