@@ -8,3 +8,4 @@ set number
 let g:go_def_mapping_enabled=0
 
 colorscheme tokyonight
+setlocal spell spelllang=en_us

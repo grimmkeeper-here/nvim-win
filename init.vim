@@ -15,6 +15,7 @@ Plug 'hrsh7th/cmp-buffer'
 Plug 'hrsh7th/cmp-path'
 Plug 'hrsh7th/cmp-cmdline'
 Plug 'hrsh7th/nvim-cmp'
+Plug 'folke/lsp-trouble.nvim'
 
 " For vsnip users.
 Plug 'hrsh7th/cmp-vsnip'
@@ -47,9 +48,6 @@ Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 Plug 'folke/todo-comments.nvim'
 Plug 'nvim-lua/plenary.nvim'
 
-" Trouble
-Plug 'folke/trouble.nvim'
-
 " Git blame
 Plug 'f-person/git-blame.nvim'
 
@@ -73,6 +71,9 @@ lua require('plugin.comment-code.settings')
 
 " Rainbow delimiters
 lua require('plugin.rainbow-delimiters.settings')
+
+" LSP Trouble
+lua require('plugin.lsp-trouble.settings')
 
 " Load settings final to override all unused settings from plugin
 exe 'source' '~/AppData/Local/nvim/settings.vim'
