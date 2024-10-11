@@ -54,6 +54,9 @@ Plug 'f-person/git-blame.nvim'
 " Copilot
 Plug 'github/copilot.vim'
 
+" Image preview
+Plug 'adelarsq/image_preview.nvim'
+
 call plug#end()
 
 " Setting Plugin
@@ -74,6 +77,9 @@ lua require('plugin.rainbow-delimiters.settings')
 
 " LSP Trouble
 lua require('plugin.lsp-trouble.settings')
+
+" Image preview
+lua require('plugin.image-preview.settings') 
 
 " Load settings final to override all unused settings from plugin
 exe 'source' '~/AppData/Local/nvim/settings.vim'
