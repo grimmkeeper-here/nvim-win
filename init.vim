@@ -82,4 +82,4 @@ lua require('plugin.lsp-trouble.settings')
 lua require('plugin.image-preview.settings') 
 
 " Load settings final to override all unused settings from plugin
-exe 'source' '~/AppData/Local/nvim/settings.vim'
+exe 'source' '~/.config/nvim/settings.vim'
