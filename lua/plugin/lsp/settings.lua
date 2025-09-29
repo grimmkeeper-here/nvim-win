@@ -42,3 +42,9 @@ require "plugin.lsp.lang.asm"
 
 -- Load settings for sql
 require "plugin.lsp.lang.sql"
+
+-- Load settings for php
+require "plugin.lsp.lang.php"
+
+-- Load settings for xml
+require "plugin.lsp.lang.xml"
